@@ -3,9 +3,9 @@ import { name, surname, title } from '../info/info'
 </script>
 
 <template>
-  <div>
-    <div class="text-3xl uppercase">{{ name }}</div>
-    <div class="text-3xl font-bold uppercase">{{ surname }}</div>
-    <div class="text-xl">{{ title }}</div>
+  <div class="text-center">
+    <h1 class="uppercase">{{ name }}</h1>
+    <h1 class="font-bold uppercase">{{ surname }}</h1>
+    <h3>{{ title }}</h3>
   </div>
 </template>

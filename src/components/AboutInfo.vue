@@ -4,6 +4,8 @@ import { about } from '../info/info'
 </script>
 
 <template>
-  <MainBlockTitle title="About me" />
-  <div>{{ about }}</div>
+  <div>
+    <MainBlockTitle title="About me" />
+    <div>{{ about }}</div>
+  </div>
 </template>

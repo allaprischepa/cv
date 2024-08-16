@@ -38,7 +38,7 @@ export const experience = [
     company: 'DrupalJedi',
     startDate: new Date(2013, 10),
     endDate: new Date(2018, 10),
-    stack: ['Drupal 6 - 8,', 'PHP,', 'MySQL,', 'Apache Solr,', 'LDAP'],
+    stack: ['Drupal 6 - 8', 'PHP', 'MySQL', 'Apache Solr', 'LDAP'],
     duties: [
       'Worked in international teams',
       'Participated in high-load projects',

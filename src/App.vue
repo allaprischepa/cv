@@ -9,14 +9,20 @@ import ExperienceInfo from './components/ExperienceInfo.vue'
 </script>
 
 <template>
-  <aside>
-    <PhotoComp />
-    <NameComp />
-    <ContactInfo />
-    <SkillsInfo />
-    <LanguagesInfo />
+  <aside class="min-w-80 flex flex-col items-center gap-10 p-4">
+    <div class="flex flex-col items-center gap-3">
+      <PhotoComp />
+      <NameComp />
+    </div>
+    <div class="bg-custom-gradient w-full mt-4 flex-grow">
+      <div class="w-max m-auto -mt-4 flex flex-col gap-8">
+        <ContactInfo />
+        <SkillsInfo />
+        <LanguagesInfo />
+      </div>
+    </div>
   </aside>
-  <main>
+  <main class="flex flex-col space-y-8 p-4">
     <AboutInfo />
     <ExperienceInfo />
   </main>

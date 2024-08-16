@@ -4,11 +4,52 @@
 @tailwind components;
 @tailwind utilities;
 
-
 #app {
   display: flex;
   max-width: 1280px;
   margin: 0 auto;
   min-height: 100vh;
   font-family: 'Inter', sans-serif;
+
+  @apply text-gray-600;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply text-gray-900;
+}
+
+h1 {
+  @apply text-3xl;
+}
+
+h2 {
+  @apply text-2xl;
+}
+
+h3 {
+  @apply text-xl;
+}
+
+h4 {
+  @apply text-lg;
+}
+
+h5 {
+  @apply text-base;
+}
+
+/* Lists */
+ul {
+  list-style-position: inside;
+}
+
+/* Colors */
+.bg-custom-gradient {
+  @apply bg-gradient-to-b from-purple-100 to-emerald-100;
 }

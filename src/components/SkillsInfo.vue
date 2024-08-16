@@ -4,8 +4,10 @@ import { skills } from '../info/info'
 </script>
 
 <template>
-  <BlockTitle title="Skills" />
-  <ul v-for="skill in skills" :key="skill">
-    <li>{{ skill }}</li>
-  </ul>
+  <div>
+    <BlockTitle title="Skills" />
+    <ul>
+      <li v-for="skill in skills" :key="skill">{{ skill }}</li>
+    </ul>
+  </div>
 </template>

@@ -11,7 +11,10 @@ export default {
       },
       borderWidth: {
         '36': '36px',
-      }
+      },
+      listStyleType: {
+        'circle': 'circle',
+      },
     },
   },
   plugins: [],
