@@ -8,13 +8,15 @@ export const linkedin = 'https://www.linkedin.com/in/alla-prishchepa/'
 export const github = 'https://github.com/allaprischepa'
 
 export const skills = [
-  'React.js',
-  'TypeScript / JavaScript',
-  'Jest / Vitest',
-  'Redux',
-  'Next.js',
-  'SASS',
-  'GraphQL'
+  {name: 'React.js', faIcon: 'react'},
+  {name: 'TypeScript', iconifyIcon: 'teenyicons:typescript-solid'},
+  {name: 'JavaScript', faIcon: 'js'},
+  {name: 'Jest', iconifyIcon: 'simple-icons:jest'},
+  {name: 'Vitest', iconifyIcon: 'simple-icons:vitest'},
+  {name: 'Redux', iconifyIcon: 'simple-icons:redux'},
+  {name: 'Next.js', iconifyIcon: 'teenyicons:nextjs-solid'},
+  {name: 'SASS', faIcon: 'sass'},
+  {name: 'GraphQL', iconifyIcon: 'teenyicons:graphql-outline'}
 ]
 
 export const languages = [

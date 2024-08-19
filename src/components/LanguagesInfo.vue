@@ -7,9 +7,9 @@ import { languages } from '../info/info'
   <div>
     <BlockTitle title="Languages" />
     <ul>
-      <li v-for="language in languages" :key="language.name">
-        <div>{{ language.name }}</div>
-        <div>{{ language.level }}</div>
+      <li v-for="language in languages" :key="language.name" class="flex gap-2">
+        <div class="text-gray-900">{{ language.name }}</div>
+        <div class="text-gray-500 italic">{{ language.level }}</div>
       </li>
     </ul>
   </div>

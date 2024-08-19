@@ -1,13 +1,18 @@
 <script setup lang="ts">
 import BlockTitle from './BlockTitle.vue'
 import { skills } from '../info/info'
+import CircleIcon from './CircleIcon.vue';
 </script>
 
 <template>
   <div>
     <BlockTitle title="Skills" />
-    <ul>
-      <li v-for="skill in skills" :key="skill">{{ skill }}</li>
+    <ul class="flex flex-col gap-2">
+      <li v-for="skill in skills" :key="skill.name" class="text-gray-900 flex gap-2">
+        <CircleIcon :faIcon="['fab', skill.faIcon]" v-if="skill.faIcon" />
+        <CircleIcon :iconifyIcon="skill.iconifyIcon" v-if="skill.iconifyIcon" />
+        {{ skill.name }}
+      </li>
     </ul>
   </div>
 </template>
