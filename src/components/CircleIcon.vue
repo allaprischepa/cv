@@ -18,12 +18,12 @@ const props = defineProps({
 });
 
 const iconClass = computed(() => {
-  return props.large ? 'text-4xl' : 'text-sm w-6 h-6';
+  return props.large ? 'text-xl w-10 h-10 bg-gray-200' : 'text-sm w-6 h-6 bg-white';
 });
 </script>
 
 <template>
-  <div :class="['rounded-full flex items-center justify-center bg-white text-purple-900', iconClass]">
+  <div :class="['rounded-full flex items-center justify-center text-purple-900', iconClass]">
     <font-awesome-icon :icon="faIcon" v-if="faIcon"/>
     <Icon :icon="iconifyIcon" v-if="iconifyIcon" class="fill-current"/>
   </div>

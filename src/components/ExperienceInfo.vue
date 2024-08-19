@@ -6,7 +6,7 @@ import { formatDate } from '@/utils/utils'
 
 <template>
   <div>
-    <MainBlockTitle title="Experience" />
+    <MainBlockTitle title="Experience" :faIcon="['fas', 'briefcase']" />
     <ul class="space-y-6">
       <li v-for="(expItem, expItemId) in experience.slice().reverse()" :key="expItemId">
         <div class="flex items-center justify-between mb-2">

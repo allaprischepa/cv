@@ -5,7 +5,7 @@ import { about } from '../info/info'
 
 <template>
   <div>
-    <MainBlockTitle title="About me" />
+    <MainBlockTitle title="About me" :faIcon="['fas', 'user']"/>
     <div>{{ about }}</div>
   </div>
 </template>

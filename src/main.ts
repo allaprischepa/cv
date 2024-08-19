@@ -5,10 +5,10 @@ import App from './App.vue'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faLocationDot, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faLocationDot, faEnvelope, faUser, faBriefcase } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedinIn, faGithub, faReact, faJs, faSass } from "@fortawesome/free-brands-svg-icons";
 
-library.add(faLocationDot, faEnvelope, faLinkedinIn, faGithub, faReact, faJs, faSass)
+library.add(faLocationDot, faEnvelope, faLinkedinIn, faGithub, faReact, faJs, faSass, faUser, faBriefcase)
 
 createApp(App)
   .component('font-awesome-icon', FontAwesomeIcon)
