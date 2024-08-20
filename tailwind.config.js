@@ -15,6 +15,9 @@ export default {
       listStyleType: {
         'circle': 'circle',
       },
+      rotate: {
+        '30': '30deg'
+      }
     },
   },
   plugins: [],

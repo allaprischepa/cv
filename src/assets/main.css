@@ -5,13 +5,12 @@
 @tailwind utilities;
 
 #app {
-  display: flex;
   max-width: 1280px;
   margin: 0 auto;
   min-height: 100vh;
   font-family: 'Inter', sans-serif;
 
-  @apply text-gray-600;
+  @apply flex flex-col text-gray-600 md:flex-row;
 }
 
 /* Headings */
@@ -52,4 +51,22 @@ ul {
 /* Colors */
 .bg-custom-gradient {
   @apply bg-gradient-to-b from-purple-100 to-emerald-100;
+}
+
+/* Links */
+@media (hover:hover) {
+  a:hover {
+    @apply text-gray-900;
+  }
+}
+
+/* Buttons */
+.button {
+  @apply inline-block px-4 py-1 border-2 border-gray-400 rounded-md;
+
+  @media (hover:hover) {
+    &:hover {
+      @apply bg-gray-300 bg-opacity-10 border-gray-600;
+    }
+  }
 }

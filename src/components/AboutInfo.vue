@@ -6,6 +6,8 @@ import { about } from '../info/info'
 <template>
   <div>
     <MainBlockTitle title="About me" :faIcon="['fas', 'user']"/>
-    <div>{{ about }}</div>
+    <div>
+      <p v-for="(paragraph, index) in about.split('\n')" :key="index">{{ paragraph }}</p>
+    </div>
   </div>
 </template>
