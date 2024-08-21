@@ -18,6 +18,7 @@ export const skills = [
   {name: 'GraphQL', iconifyIcon: 'teenyicons:graphql-outline'},
   {name: 'Vue.js', faIcon: 'vuejs'},
   {name: 'SASS', faIcon: 'sass'},
+  {name: 'Tailwind CSS', iconifyIcon: 'teenyicons:tailwind-solid'},
   {name: 'CSS', faIcon: 'css3-alt'},
   {name: 'HTML', faIcon: 'html5'},
   {name: 'PHP', faIcon: 'php'},
