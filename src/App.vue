@@ -10,7 +10,7 @@ import EducationInfo from './components/EducationInfo.vue'
 </script>
 
 <template>
-  <aside class="w-screen px-0 md:min-w-80 md:max-w-md flex flex-col items-center gap-8 md:px-4 pt-4 box-border">
+  <aside class="w-screen px-0 md:min-w-80 md:max-w-md flex flex-col items-center gap-8 md:px-4 pt-4 box-border mb-4 md:mb-0">
     <div class="flex flex-col items-center gap-3">
       <PhotoComp />
       <NameComp />
