@@ -22,6 +22,8 @@ export const skills = [
   {name: 'CSS', faIcon: 'css3-alt'},
   {name: 'HTML', faIcon: 'html5'},
   {name: 'PHP', faIcon: 'php'},
+  {name: 'Node.js', iconifyIcon: 'teenyicons:nodejs-solid'},
+  {name: 'Docker', iconifyIcon: 'teenyicons:docker-solid'},
 ]
 
 export const languages = [
@@ -125,6 +127,13 @@ export const education = {
       score: '13 / 1077',
       link: 'https://app.rs.school/certificate/97p2cdw6',
       date: new Date(2024, 0)
+    },
+    {
+      courseName: 'NodeJS 2024 Q3',
+      schoolName: 'The Rolling Scopes School',
+      score: '12 / 949',
+      link: 'https://app.rs.school/certificate/7udv05z9',
+      date: new Date(2024, 11)
     }
   ]
 }
