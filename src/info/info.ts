@@ -27,7 +27,7 @@ export const skills = [
 ]
 
 export const languages = [
-  { name: 'English', level: 'Intermediate' },
+  { name: 'English', level: 'Upper-Intermediate' },
   { name: 'Russian', level: 'Native' }
 ]
 
@@ -88,7 +88,7 @@ export const experience = [
     title: 'Full-stack Developer',
     company: 'Freelance',
     startDate: new Date(2018, 11),
-    endDate: 'currently',
+    endDate: new Date(2025, 2),
     stack: ['WordPress', 'PHP', 'CSS', 'JavaScript', 'Docker'],
     duties: [
       'Developed sites from scratch',
@@ -100,7 +100,21 @@ export const experience = [
       'Set up SEO',
       'Set up hosting'
     ]
-  }
+  },
+  {
+    title: 'Frontend Developer (Intern)',
+    company: 'EPAM',
+    startDate: new Date(2025, 2),
+    endDate: 'currently',
+    stack: ['React', 'TypeScript', 'SASS', 'AWS'],
+    duties: [
+        'Completed AWS Serverless training',
+        'Gained hands-on experience with AWS services: Lambda, API Gateway, S3, DynamoDB',
+        'Developed responsive frontend features using React and TypeScript',
+        'Integrated frontend application with AWS Serverless backend via REST API',
+        'Implemented authentication and booking workflows',
+    ]
+  },
 ]
 
 export const education = {
@@ -135,5 +149,11 @@ export const education = {
       link: 'https://app.rs.school/certificate/7udv05z9',
       date: new Date(2024, 11)
     }
-  ]
+  ],
+  badges: [
+    {
+        link: 'https://www.credly.com/badges/a9af57e5-5f6a-4da4-8b3c-5b4ed4aebe04/public_url',
+        image: 'https://images.credly.com/images/e07c6cc4-b737-4d7e-8ce8-66b6b7a60367/image.png'
+    }
+  ],
 }

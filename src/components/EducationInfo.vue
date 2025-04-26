@@ -31,5 +31,15 @@ import { formatDate } from '@/utils/utils';
         </li>
       </ul>
     </div>
+    <div>
+      <h5 class="text-center text-gray-500 italic my-2">Badges</h5>
+      <ul class="flex flex-row gap-3">
+        <li class="max-w-24" v-for="(badge, bIndex) in education.badges" :key="bIndex">
+          <a :href=badge.link target=_blank>
+            <img :src=badge.image />
+          </a>
+        </li>
+      </ul>
+    </div>
   </div>
 </template>
